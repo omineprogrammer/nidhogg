@@ -1,0 +1,224 @@
+INFO:root:('2017-03-05 17:14:44', u'FSKRN9')
+INFO:root:('2017-03-05 17:14:44', '[MTD] rutina 2')
+DEBUG:root:('2017-03-05 17:15:20', '- info generado')
+DEBUG:root:('2017-03-05 17:15:20', '- info decodificado')
+INFO:root:('2017-03-05 17:15:20', '[MTD] conectar a servidor')
+DEBUG:root:('2017-03-05 17:15:20', '- intento', 1)
+DEBUG:root:('2017-03-05 17:15:23', '- intento', 2)
+DEBUG:root:('2017-03-05 17:15:26', '- intento', 3)
+DEBUG:root:('2017-03-05 17:15:29', '- intento', 4)
+DEBUG:root:('2017-03-05 17:15:32', '- intento', 5)
+DEBUG:root:('2017-03-05 17:15:35', '- intento', 6)
+DEBUG:root:('2017-03-05 17:15:38', '- intento', 7)
+DEBUG:root:('2017-03-05 17:15:41', '- intento', 8)
+DEBUG:root:('2017-03-05 17:15:44', '- intento', 9)
+DEBUG:root:('2017-03-05 17:15:47', '- intento', 10)
+DEBUG:root:('2017-03-05 17:15:50', "- de nuevo en 10'")
+2017-03-05 17:23:08,496 - root - INFO - ('2017-03-05 17:23:08', u'FSKRN9')
+2017-03-05 17:23:08,496 - root - INFO - ('2017-03-05 17:23:08', '[MTD] rutina 2')
+2017-03-05 17:23:44,210 - root - DEBUG - ('2017-03-05 17:23:44', '- info generado')
+2017-03-05 17:23:44,210 - root - DEBUG - ('2017-03-05 17:23:44', '- info decodificado')
+2017-03-05 17:23:44,210 - root - INFO - ('2017-03-05 17:23:44', '[MTD] conectar a servidor')
+2017-03-05 17:24:14,211 - root - DEBUG - ('2017-03-05 17:24:14', "- de nuevo en 10'")
+2017-03-05 17:28:33,759 - root - INFO - ('2017-03-05 17:28:33', u'FSKRN9')
+2017-03-05 17:28:33,759 - root - INFO - [MTD] rutina 2
+2017-03-05 17:29:09,013 - root - DEBUG - info generado
+2017-03-05 17:29:09,013 - root - DEBUG - info decodificado
+2017-03-05 17:29:09,013 - root - INFO - [MTD] conectar a servidor
+2017-03-05 17:29:39,036 - root - DEBUG - de nuevo en 10'
+2017-03-05 17:39:41,464 - root - INFO - ('2017-03-05 17:39:41', u'FSKRN9')
+2017-03-05 17:40:17,677 - routine2 - DEBUG - info generado
+2017-03-05 17:40:17,678 - routine2 - DEBUG - info decodificado
+2017-03-05 17:40:17,678 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:20,678 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:23,678 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:26,680 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:29,680 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:32,680 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:35,680 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:38,680 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:41,680 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:44,681 - connect - WARNING - str() takes at most 1 argument (2 given)
+2017-03-05 17:40:47,681 - connect - DEBUG - de nuevo en 10'
+2017-03-05 17:41:06,319 - root - INFO - ('2017-03-05 17:41:06', u'FSKRN9')
+2017-03-05 17:41:42,052 - routine2 - DEBUG - info generado
+2017-03-05 17:41:42,053 - routine2 - DEBUG - info decodificado
+2017-03-05 17:41:42,053 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:41:45,053 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:41:48,053 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:41:51,053 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:41:54,055 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:41:57,055 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:42:00,055 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:42:03,055 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:42:06,055 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:42:09,055 - connect - WARNING - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:42:12,056 - connect - DEBUG - de nuevo en 10'
+2017-03-05 17:42:35,506 - root            - INFO     - ('2017-03-05 17:42:35', u'FSKRN9')
+2017-03-05 17:43:11,144 - routine2        - DEBUG    - info generado
+2017-03-05 17:43:11,144 - routine2        - DEBUG    - info decodificado
+2017-03-05 17:43:11,144 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:14,145 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:17,147 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:20,147 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:23,147 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:26,147 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:29,147 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:32,148 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:35,148 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:38,148 - connect         - WARNING  - cannot concatenate 'str' and 'int' objects
+2017-03-05 17:43:41,148 - connect         - DEBUG    - de nuevo en 10'
+2017-03-05 17:44:33,729 - root            - INFO     - ('2017-03-05 17:44:33', u'FSKRN9')
+2017-03-05 17:44:50,130 - root            - INFO     - ('2017-03-05 17:44:50', u'FSKRN9')
+2017-03-05 17:44:51,137 - routine1        - DEBUG    - qinfo generado
+2017-03-05 17:44:51,138 - routine1        - DEBUG    - qinfo decodificado
+2017-03-05 17:44:51,138 - connect         - DEBUG    - intento 1
+2017-03-05 17:44:51,144 - connect         - WARNING  - an integer is required
+2017-03-05 17:44:54,144 - connect         - DEBUG    - intento 2
+2017-03-05 17:44:54,144 - connect         - WARNING  - an integer is required
+2017-03-05 17:44:57,144 - connect         - DEBUG    - intento 3
+2017-03-05 17:44:57,144 - connect         - WARNING  - an integer is required
+2017-03-05 17:45:00,144 - connect         - DEBUG    - intento 4
+2017-03-05 17:45:00,144 - connect         - WARNING  - an integer is required
+2017-03-05 17:45:03,144 - connect         - DEBUG    - intento 5
+2017-03-05 17:45:03,144 - connect         - WARNING  - an integer is required
+2017-03-05 17:45:06,144 - connect         - DEBUG    - intento 6
+2017-03-05 17:45:06,144 - connect         - WARNING  - an integer is required
+2017-03-05 17:45:09,145 - connect         - DEBUG    - intento 7
+2017-03-05 17:45:09,145 - connect         - WARNING  - an integer is required
+2017-03-05 17:45:12,145 - connect         - DEBUG    - intento 8
+2017-03-05 17:45:12,145 - connect         - WARNING  - an integer is required
+2017-03-05 17:45:15,145 - connect         - DEBUG    - intento 9
+2017-03-05 17:45:15,145 - connect         - WARNING  - an integer is required
+2017-03-05 17:45:18,145 - connect         - DEBUG    - intento 10
+2017-03-05 17:45:18,145 - connect         - WARNING  - an integer is required
+2017-03-05 17:45:21,145 - connect         - DEBUG    - de nuevo en 10'
+2017-03-05 17:48:46,884 - root            - INFO     - ('2017-03-05 17:48:46', u'FSKRN9')
+2017-03-05 17:48:47,885 - routine1        - DEBUG    - qinfo generado
+2017-03-05 17:48:47,885 - routine1        - DEBUG    - qinfo decodificado
+2017-03-05 17:48:47,887 - connect         - DEBUG    - intento 1
+2017-03-05 17:48:48,901 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:48:51,903 - connect         - DEBUG    - intento 2
+2017-03-05 17:48:52,904 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:48:55,905 - connect         - DEBUG    - intento 3
+2017-03-05 17:48:56,907 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:48:59,907 - connect         - DEBUG    - intento 4
+2017-03-05 17:49:00,923 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:49:03,924 - connect         - DEBUG    - intento 5
+2017-03-05 17:49:04,924 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:49:07,926 - connect         - DEBUG    - intento 6
+2017-03-05 17:49:08,927 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:49:11,928 - connect         - DEBUG    - intento 7
+2017-03-05 17:49:12,930 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:49:15,930 - connect         - DEBUG    - intento 8
+2017-03-05 17:49:16,931 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:49:19,933 - connect         - DEBUG    - intento 9
+2017-03-05 17:49:20,934 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:49:23,934 - connect         - DEBUG    - intento 10
+2017-03-05 17:49:24,937 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:49:27,938 - connect         - DEBUG    - de nuevo en 10'
+2017-03-05 17:59:27,938 - connect         - DEBUG    - intento 1
+2017-03-05 17:59:28,940 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:59:31,940 - connect         - DEBUG    - intento 2
+2017-03-05 17:59:32,944 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:59:35,944 - connect         - DEBUG    - intento 3
+2017-03-05 17:59:36,946 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:59:39,947 - connect         - DEBUG    - intento 4
+2017-03-05 17:59:40,948 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:59:43,950 - connect         - DEBUG    - intento 5
+2017-03-05 17:59:44,950 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:59:47,951 - connect         - DEBUG    - intento 6
+2017-03-05 17:59:48,953 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:59:51,954 - connect         - DEBUG    - intento 7
+2017-03-05 17:59:52,956 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:59:55,956 - connect         - DEBUG    - intento 8
+2017-03-05 17:59:56,959 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 17:59:59,960 - connect         - DEBUG    - intento 9
+2017-03-05 18:00:00,963 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:00:03,963 - connect         - DEBUG    - intento 10
+2017-03-05 18:00:04,973 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:00:07,973 - connect         - DEBUG    - de nuevo en 10'
+2017-03-05 18:10:07,973 - connect         - DEBUG    - intento 1
+2017-03-05 18:10:08,976 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:11,976 - connect         - DEBUG    - intento 2
+2017-03-05 18:10:12,979 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:15,980 - connect         - DEBUG    - intento 3
+2017-03-05 18:10:16,986 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:19,986 - connect         - DEBUG    - intento 4
+2017-03-05 18:10:20,987 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:23,987 - connect         - DEBUG    - intento 5
+2017-03-05 18:10:24,990 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:27,990 - connect         - DEBUG    - intento 6
+2017-03-05 18:10:28,990 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:31,992 - connect         - DEBUG    - intento 7
+2017-03-05 18:10:32,993 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:35,993 - connect         - DEBUG    - intento 8
+2017-03-05 18:10:36,994 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:39,994 - connect         - DEBUG    - intento 9
+2017-03-05 18:10:40,996 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:43,997 - connect         - DEBUG    - intento 10
+2017-03-05 18:10:44,997 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:10:47,999 - connect         - DEBUG    - de nuevo en 10'
+2017-03-05 18:20:47,999 - connect         - DEBUG    - intento 1
+2017-03-05 18:20:49,002 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:20:52,003 - connect         - DEBUG    - intento 2
+2017-03-05 18:20:53,005 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:20:56,005 - connect         - DEBUG    - intento 3
+2017-03-05 18:20:57,006 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:21:00,007 - connect         - DEBUG    - intento 4
+2017-03-05 18:21:01,009 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:21:04,009 - connect         - DEBUG    - intento 5
+2017-03-05 18:21:05,010 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:21:08,010 - connect         - DEBUG    - intento 6
+2017-03-05 18:21:09,013 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:21:12,013 - connect         - DEBUG    - intento 7
+2017-03-05 18:21:13,015 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:21:16,016 - connect         - DEBUG    - intento 8
+2017-03-05 18:21:17,016 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:21:20,017 - connect         - DEBUG    - intento 9
+2017-03-05 18:21:21,020 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:21:24,020 - connect         - DEBUG    - intento 10
+2017-03-05 18:21:25,022 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:21:28,023 - connect         - DEBUG    - de nuevo en 10'
+2017-03-05 18:31:28,023 - connect         - DEBUG    - intento 1
+2017-03-05 18:31:29,023 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:31:32,023 - connect         - DEBUG    - intento 2
+2017-03-05 18:31:33,025 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:31:36,025 - connect         - DEBUG    - intento 3
+2017-03-05 18:31:37,026 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:31:40,028 - connect         - DEBUG    - intento 4
+2017-03-05 18:31:41,029 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:31:44,029 - connect         - DEBUG    - intento 5
+2017-03-05 18:31:45,030 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:31:48,030 - connect         - DEBUG    - intento 6
+2017-03-05 18:31:49,032 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:31:52,032 - connect         - DEBUG    - intento 7
+2017-03-05 18:31:53,033 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:31:56,035 - connect         - DEBUG    - intento 8
+2017-03-05 18:31:57,036 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:32:00,036 - connect         - DEBUG    - intento 9
+2017-03-05 18:32:01,039 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:32:04,039 - connect         - DEBUG    - intento 10
+2017-03-05 18:32:05,042 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:32:08,042 - connect         - DEBUG    - de nuevo en 10'
+2017-03-05 18:42:08,042 - connect         - DEBUG    - intento 1
+2017-03-05 18:42:09,046 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:12,046 - connect         - DEBUG    - intento 2
+2017-03-05 18:42:13,049 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:16,049 - connect         - DEBUG    - intento 3
+2017-03-05 18:42:17,051 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:20,052 - connect         - DEBUG    - intento 4
+2017-03-05 18:42:21,052 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:24,053 - connect         - DEBUG    - intento 5
+2017-03-05 18:42:25,055 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:28,055 - connect         - DEBUG    - intento 6
+2017-03-05 18:42:29,056 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:32,056 - connect         - DEBUG    - intento 7
+2017-03-05 18:42:33,059 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:36,059 - connect         - DEBUG    - intento 8
+2017-03-05 18:42:37,061 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:40,061 - connect         - DEBUG    - intento 9
+2017-03-05 18:42:41,062 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:44,062 - connect         - DEBUG    - intento 10
+2017-03-05 18:42:45,065 - connect         - WARNING  - [Errno 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+2017-03-05 18:42:48,065 - connect         - DEBUG    - de nuevo en 10'
