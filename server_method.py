@@ -2,17 +2,26 @@
 
 import server
 import threading
+import logging
 
 
 class MethodServer(server.Server):
 
     def __init__(self):
         self.config()
+        logging.basicConfig(filename = 'server.log',
+                            level = logging.DEBUG,
+                            format = '%(asctime)s - %(name)-13s: %(levelname)-8s - %(message)s')
+        logging.info(self.name)
 
     def run(self):
+        logger = logging.getLogger("run")
         self.start_th(self.listen_method)
+        logger.debug("th listen_method iniciado")
         self.start_th(self.depure_method)
-        self.start_th(self.admin())
+        logger.debug("th depure_method iniciado")
+        self.start_th(self.admin)
+        logger.debug("th admin iniciado")
 
     def listen_method(self):
         while True:
@@ -27,21 +36,25 @@ class MethodServer(server.Server):
 
 
     def connection_daemon(self, c_port):
-        client = self.connections[c_port][0]
-        message = client.socket.recv(102400)
-        self.process_method(message, c_port)
-        client.close()
+        logger = logging.getLogger("connection_daemon")
+        try:
+            client = self.connections[c_port][0]
+            message = client.socket.recv(102400)
+            logger.debug("mensaje recivido de " + c_port)
+            self.process_method(message, c_port)
+            client.close()
+        except Exception as err:
+            logger.warning(err)
+            pass
 
     def process_method(self, message, c_port):
+        logger = logging.getLogger("process_method")
         client = self.connections[c_port][0]
 
-        if message == "":
+        if "INFO>" in message:
+            self.insertdb(message)
+        else:
             client.close()
-        elif "<QINFO>" in message:
-            self.insertdb(message)
-            # self.insertdb.data()
-        elif "<INFO>" in message:
-            self.insertdb(message)
 
         return 0
 

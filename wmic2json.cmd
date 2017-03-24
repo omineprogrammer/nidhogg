@@ -22,18 +22,13 @@ call:main %* & goto:EOF
 	:burn
 		::list wmic commands [;rol_accion_atributo,atributo,atributo,...;rol_accion_atributo,atributo,atributo,...]
 
-		REM set arg=%arg%;COMPUTERSYSTEM name,Manufacturer
-		::,Model,TotalPhysicalMemory,Domain
-		REM set arg=%arg%;OS BuildNumber,Caption,Description,InstallDate,OSArchitecture,RegisteredUser,SerialNumber,Version
-		REM
+		REM set arg=%arg%;COMPUTERSYSTEM Name,Domain,Manufacturer,Model,TotalPhysicalMemory
+		REM set arg=%arg%;OS BuildNumber,Caption,Description,InstallDate,OSArchitecture,RegisteredUser,SerialNumber
 		REM set arg=%arg%;BASEBOARD Manufacturer,Product,SerialNumber
-		REM
 		REM set arg=%arg%;CPU Name,L2CacheSize,L3CacheSize,Manufacturer,MaxClockSpeed,NumberOfLogicalProcessors,NumberOfCores,ProcessorId,SocketDesignation
 		REM set arg=%arg%;MEMORYCHIP BankLabel,Capacity,DeviceLocator,FormFactor,Manufacturer,Model,SerialNumber,Speed
-		REM set arg=%arg%;DISKDRIVE Description,Index,InterfaceType,Model,Size,SerialNumber
-		REM
-		REM set arg=%arg%;NICCONFIG Description,DefaultIPGateway,DNSServerSearchOrder,Index,IPAddress,IPSubnet,MACAddress
-		REM
+		set arg=%arg%;DISKDRIVE Description,Index,InterfaceType,Model,Size,SerialNumber
+		set arg=%arg%;NICCONFIG Description,DefaultIPGateway,DNSServerSearchOrder,Index,IPAddress,IPSubnet,MACAddress
 		REM set arg=%arg%;PARTITION BlockSize,Bootable,BootPartition,DeviceID,NumberOfBlocks,PrimaryPartition,Size,StartingOffset,Type
 		REM set arg=%arg%;VOLUME Automount,BootVolume,Capacity,Compressed,FileSystem,FreeSpace,Label,SerialNumber,SystemVolume
 

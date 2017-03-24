@@ -12,6 +12,7 @@ class Server:
 
     # SOCKET ------------------------------------------------------------------
     def config(self):
+        self.name = "kraken"
         self.connection_server = ("", 514)
         self.connections = {} #example: {"port" : [connectio_obj, thread_obj}
         # self.data_clients = {} #temp client data: {"id": data}
@@ -71,18 +72,17 @@ class Server:
 
         if dtype == "<QINFO>":
             data = rawdata["<QINFO>"]
-            try:
-                sql.insert_qinfo(data, code)
-            except Exception as err:
-                print "[EXECEPTION]:", err  # [LOG]
+            # try:
+            sql.insert_qinfo(data, code)
+            # except Exception as err:
+            #     print "[EXECEPTION]:", err  # [LOG]
 
         elif dtype == "<INFO>":
             data = rawdata["<INFO>"]
-            try:
-                # print data # [DEBUG]
-                sql.insert_info(data, code)
-            except Exception as err:
-                print "[EXECEPTION]:", err  # [LOG]
+            # try:
+            sql.insert_info(data, code)
+            # except Exception as err:
+            #     print "[EXECEPTION]:", err  # [LOG]
 
 
 
